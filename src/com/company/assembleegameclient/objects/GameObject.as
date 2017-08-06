@@ -740,6 +740,9 @@ public class GameObject extends BasicObject {
         var _local_14:Vector.<uint>;
         var _local_15:Boolean;
         var _local_6:Boolean;
+	
+	this.hp_ -= _arg_2; // update enemies health with the damage inflicted
+	
         if (_arg_4) {
             this.dead_ = true;
         }
